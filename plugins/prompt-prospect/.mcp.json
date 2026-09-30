@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "prompt-prospect": {
+      "type": "http",
+      "url": "https://www.promptprospect.ai/api/mcp"
+    }
+  }
+}

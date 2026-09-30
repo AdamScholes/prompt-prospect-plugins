@@ -1,0 +1,11 @@
+{
+  "name": "prompt-prospect",
+  "displayName": "Prompt Prospect",
+  "version": "1.0.0",
+  "description": "Find conferences, see who is going and why, judge people against your target customer, and save the ones worth meeting.",
+  "author": { "name": "Prompt Prospect", "email": "chris@promptprospect.ai", "url": "https://www.promptprospect.ai" },
+  "homepage": "https://www.promptprospect.ai/docs/connectors",
+  "repository": "https://github.com/AdamScholes/prompt-prospect-plugins",
+  "license": "MIT",
+  "keywords": ["events", "conferences", "prospecting", "sales", "lead-generation", "linkedin"]
+}
