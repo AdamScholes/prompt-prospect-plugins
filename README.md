@@ -4,7 +4,7 @@ Get the attendee list for any conference, expo or trade show. Prompt Prospect fi
 
 - **Plan a conference**: find events near a place or in an industry from the curated catalog, save one, and start its research.
 - **Find people at an event**: who is going and why, filtered by role, company, fit or relationship (speakers, sponsors, exhibitors, engaged attendees), with the evidence behind each name.
-- **Check fit**: judge everyone at an event against your target customer so the matches sort to the top. This is the one paid step; it always shows an estimate and asks before spending credits.
+- **Check fit**: judge everyone at an event against your target customer so the matches sort to the top. It uses workspace credits, so it always shows an estimate and asks before it runs.
 - **Target customer**: read or edit the profile that Check fit judges against.
 
 ## What it connects to
