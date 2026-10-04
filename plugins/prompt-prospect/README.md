@@ -1,6 +1,6 @@
 # Prompt Prospect for ChatGPT, Claude and other assistants
 
-Find who is going to any conference, expo or trade show. Prompt Prospect builds the attendee list for an event (speakers, exhibitors, sponsors, organizers, companies and the people engaging with it online), shows the evidence behind each name, and judges everyone against your ideal customer so you know who to meet before you go. This plugin connects an assistant to your Prompt Prospect workspace through the Prompt Prospect MCP server and teaches it four workflows:
+Get the attendee list for any conference, expo or trade show. Prompt Prospect finds who is speaking, exhibiting, sponsoring and attending an event (with each person's company and the evidence that puts them there) and judges everyone against your ideal customer, so you know who to meet before you go. This plugin connects an assistant to your Prompt Prospect workspace through the Prompt Prospect MCP server and teaches it four workflows:
 
 - **Plan a conference**: find events near a place or in an industry from the curated catalog, save one, and start its research.
 - **Find people at an event**: who is going and why, filtered by role, company, fit or relationship (speakers, sponsors, exhibitors, engaged attendees), with the evidence behind each name.

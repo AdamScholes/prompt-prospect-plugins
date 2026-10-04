@@ -2,7 +2,7 @@
   "name": "prompt-prospect",
   "displayName": "Prompt Prospect",
   "version": "1.0.0",
-  "description": "Find conference attendees, speakers, exhibitors, sponsors and companies at any expo, trade show or event, and see who fits your ideal customer.",
+  "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, and who fits your ideal customer.",
   "author": {
     "name": "Prompt Prospect",
     "email": "chris@promptprospect.ai",
@@ -12,16 +12,16 @@
   "repository": "https://github.com/AdamScholes/prompt-prospect-plugins",
   "license": "MIT",
   "keywords": [
-    "conference attendees",
+    "conference attendee list",
     "event attendees",
+    "who is attending",
     "speaker list",
     "exhibitor list",
-    "sponsors",
-    "trade show",
+    "sponsor list",
+    "trade show leads",
     "expo",
     "event prospecting",
-    "lead generation",
-    "sales"
+    "lead generation"
   ],
   "documentationUrl": "https://github.com/AdamScholes/prompt-prospect-plugins#readme",
   "supportUrl": "https://www.promptprospect.ai/faq",

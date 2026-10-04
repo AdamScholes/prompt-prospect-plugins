@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "prompt-prospect",
   "version": "1.0.0",
-  "description": "Find conference attendees, speakers, exhibitors, sponsors and companies at any expo, trade show or event, and see who fits your ideal customer.",
+  "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, and who fits your ideal customer.",
   "author": {
     "name": "Prompt Prospect",
     "email": "chris@promptprospect.ai",
@@ -12,23 +12,23 @@
   "repository": "https://github.com/AdamScholes/prompt-prospect-plugins",
   "license": "MIT",
   "keywords": [
-    "conference attendees",
+    "conference attendee list",
     "event attendees",
+    "who is attending",
     "speaker list",
     "exhibitor list",
-    "sponsors",
-    "trade show",
+    "sponsor list",
+    "trade show leads",
     "expo",
     "event prospecting",
-    "lead generation",
-    "sales"
+    "lead generation"
   ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Prompt Prospect",
         "shortDescription": "Find conference attendees",
-        "longDescription": "Prompt Prospect finds the people and companies going to a conference, expo, trade show or industry event, so you know who to meet before you arrive.\n\nFind events near a city or in an industry (fintech, SaaS, healthtech, HR tech, martech, security and more) from a curated catalog of upcoming conferences, or add any event by its website. Prompt Prospect researches the event's own pages and its LinkedIn activity and builds the attendee list: speakers, exhibitors, sponsors, organizers and the people engaging with the event online, each with the source that puts them there and their company.\n\nDescribe your ideal customer once and Check fit judges every attendee and company against it, so the strongest matches rise to the top. Then ask who to meet: \"Who at Money20/20 is a head of compliance at a bank?\", \"Which exhibitors at HLTH sell to hospitals?\", \"List the speakers at Web Summit who work in fintech.\" Save the people worth meeting, keep notes, and export the list for outreach.\n\nUse it for conference prospecting and event lead generation: build a speaker list or an exhibitor list, research sponsors before a trade show, and prepare meetings at expos, summits and industry events.\n\nResearch is included with the workspace. Check fit uses workspace credits and always shows an estimate before it spends. Prompt Prospect returns names, roles, companies and public profile links with their evidence; it never returns personal email addresses or phone numbers.",
+        "longDescription": "Prompt Prospect gives you the attendee list for any conference, expo, trade show or industry event: who is speaking, exhibiting, sponsoring and attending, so you know who to meet before you go.\n\nSearch a curated catalog of upcoming conferences by city or industry (fintech, SaaS, healthtech, HR tech, martech, security and more), or add any event by its website. Prompt Prospect researches the event's own pages and its LinkedIn activity and builds the event attendee list: the speaker list, the exhibitor list, sponsors, organizers and the people engaging with the event online, each with their company and the source that puts them there.\n\nDescribe your ideal customer once and Check fit judges every attendee and company against it, so the best leads rise to the top. Then ask who to meet: \"Who is speaking at Money20/20 and works at a bank?\", \"Which exhibitors at HLTH sell to hospitals?\", \"Which sponsors at Web Summit match my ideal customer?\" Save the people worth meeting, keep notes, and export the list for outreach.\n\nUse it for conference prospecting and trade show lead generation: find who is attending an event, build a speaker or exhibitor list, research sponsors before an expo, and plan meetings at summits and industry events.\n\nResearch is included with the workspace. Check fit uses workspace credits and always shows an estimate before it spends. Prompt Prospect returns names, roles, companies and public profile links with their evidence; it never returns personal email addresses or phone numbers.",
         "developerName": "Prompt Prospect",
         "category": "Productivity",
         "capabilities": [
@@ -41,9 +41,9 @@
         "termsOfServiceURL": "https://www.promptprospect.ai/terms",
         "defaultPrompt": [
           "Who is speaking at Money20/20 USA, and which speakers work at banks?",
-          "Find the exhibitors and sponsors at HLTH that sell to hospitals.",
+          "Get me the exhibitor list and sponsors for HLTH, and who sells to hospitals.",
           "Which fintech conferences and expos are near Chicago in the next six months?",
-          "Who at Web Summit matches my ideal customer?"
+          "Who is attending Web Summit that matches my ideal customer?"
         ],
         "brandColor": "#1F6FEB",
         "composerIcon": "./assets/icon.png",

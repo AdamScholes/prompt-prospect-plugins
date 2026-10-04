@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "prompt-prospect-plugins",
-  "description": "Prompt Prospect for Claude: find conference attendees, speakers, exhibitors, sponsors and companies at any expo, trade show or event.",
+  "description": "Prompt Prospect for Claude: the attendee list for any conference, expo or trade show (speakers, exhibitors, sponsors and companies).",
   "owner": {
     "name": "Prompt Prospect",
     "email": "chris@promptprospect.ai",
@@ -11,17 +11,17 @@
     {
       "name": "prompt-prospect",
       "source": "./plugins/prompt-prospect",
-      "description": "Find conference attendees, speakers, exhibitors, sponsors and companies at any expo, trade show or event, and see who fits your ideal customer.",
+      "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, and who fits your ideal customer.",
       "version": "1.0.0",
       "category": "sales",
       "tags": [
-        "conference attendees",
+        "conference attendee list",
         "event attendees",
-        "speakers",
-        "exhibitors",
-        "trade shows",
-        "event prospecting",
-        "lead-generation"
+        "speaker list",
+        "exhibitor list",
+        "sponsor list",
+        "trade show leads",
+        "event prospecting"
       ]
     }
   ]
