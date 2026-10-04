@@ -1,16 +1,28 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "prompt-prospect-plugins",
-  "description": "Prompt Prospect for Claude: find the people worth meeting at any conference, judged against your target customer.",
-  "owner": { "name": "Prompt Prospect", "email": "chris@promptprospect.ai", "url": "https://www.promptprospect.ai" },
+  "description": "Prompt Prospect for Claude: find conference attendees, speakers, exhibitors, sponsors and companies at any expo, trade show or event.",
+  "owner": {
+    "name": "Prompt Prospect",
+    "email": "chris@promptprospect.ai",
+    "url": "https://www.promptprospect.ai"
+  },
   "plugins": [
     {
       "name": "prompt-prospect",
       "source": "./plugins/prompt-prospect",
-      "description": "Find conferences, see who is going and why, judge people against your target customer, and save the ones worth meeting.",
+      "description": "Find conference attendees, speakers, exhibitors, sponsors and companies at any expo, trade show or event, and see who fits your ideal customer.",
       "version": "1.0.0",
       "category": "sales",
-      "tags": ["events", "conferences", "prospecting", "sales", "lead-generation"]
+      "tags": [
+        "conference attendees",
+        "event attendees",
+        "speakers",
+        "exhibitors",
+        "trade shows",
+        "event prospecting",
+        "lead-generation"
+      ]
     }
   ]
 }
