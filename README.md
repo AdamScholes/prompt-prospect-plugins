@@ -34,4 +34,4 @@ The server returns only data from your own workspace and the public event catalo
 
 ## Documentation
 
-https://www.promptprospect.ai/docs/connectors
+This README is the documentation. Product help and answers to common questions: https://www.promptprospect.ai/faq

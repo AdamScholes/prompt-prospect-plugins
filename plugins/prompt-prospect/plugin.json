@@ -3,11 +3,21 @@
   "name": "prompt-prospect",
   "version": "1.0.0",
   "description": "Find conferences, see who is going and why, judge people against your target customer, and save the ones worth meeting.",
-  "author": { "name": "Prompt Prospect", "email": "chris@promptprospect.ai", "url": "https://www.promptprospect.ai" },
-  "homepage": "https://www.promptprospect.ai/docs/connectors",
+  "author": {
+    "name": "Prompt Prospect",
+    "email": "chris@promptprospect.ai",
+    "url": "https://www.promptprospect.ai"
+  },
+  "homepage": "https://www.promptprospect.ai",
   "repository": "https://github.com/AdamScholes/prompt-prospect-plugins",
   "license": "MIT",
-  "keywords": ["events", "conferences", "prospecting", "sales", "lead-generation"],
+  "keywords": [
+    "events",
+    "conferences",
+    "prospecting",
+    "sales",
+    "lead-generation"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -16,7 +26,10 @@
         "longDescription": "Prompt Prospect finds the people worth meeting at a conference before you go. Pick an event from the catalog or paste its website; research reads the event's pages and LinkedIn posts and lists the speakers, sponsors, exhibitors and engaged attendees with the evidence that puts them there. Describe your target customer once, and Check fit judges every person against it so the matches sort to the top. Save the ones you want to meet, add notes, and export the list. Research is included; Check fit spends the workspace's credits and asks before it starts.",
         "developerName": "Prompt Prospect",
         "category": "Productivity",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://www.promptprospect.ai",
         "supportURL": "https://www.promptprospect.ai/faq",
         "privacyPolicyURL": "https://www.promptprospect.ai/privacy",
