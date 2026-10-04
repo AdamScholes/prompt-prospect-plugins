@@ -42,7 +42,7 @@
         "defaultPrompt": [
           "Who is speaking at Money20/20 USA, and which speakers work at banks?",
           "Find fintech conferences and trade shows in Las Vegas in the next six months.",
-          "Which exhibitors and sponsors at Money20/20 USA match my ideal customer?"
+          "Who at Money20/20 USA matches my ideal customer, and why?"
         ],
         "brandColor": "#1F6FEB",
         "composerIcon": "./assets/icon.png",
