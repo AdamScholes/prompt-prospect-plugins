@@ -1,8 +1,8 @@
 {
   "name": "prompt-prospect",
   "displayName": "Prompt Prospect",
-  "version": "1.0.0",
-  "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, and who fits your ideal customer.",
+  "version": "1.1.0",
+  "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, who fits your target customer, and the other events they go to.",
   "author": {
     "name": "Prompt Prospect",
     "email": "chris@promptprospect.ai",
