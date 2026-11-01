@@ -12,7 +12,7 @@
       "name": "prompt-prospect",
       "source": "./plugins/prompt-prospect",
       "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, who fits your target customer, and the other events they go to.",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "category": "sales",
       "tags": [
         "conference attendee list",
