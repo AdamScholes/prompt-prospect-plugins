@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AdamScholes/prompt-prospect",
+  "title": "Prompt Prospect",
+  "description": "Who is speaking, exhibiting, sponsoring and attending any conference, checked against your customer.",
+  "websiteUrl": "https://www.promptprospect.ai",
+  "repository": {
+    "url": "https://github.com/AdamScholes/prompt-prospect-plugins",
+    "source": "github"
+  },
+  "version": "1.2.1",
+  "icons": [
+    {
+      "src": "https://www.promptprospect.ai/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.promptprospect.ai/api/mcp"
+    }
+  ]
+}
