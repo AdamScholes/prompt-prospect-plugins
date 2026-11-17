@@ -4,7 +4,7 @@
   "description": "Prompt Prospect for Claude: the attendee list for any conference, expo or trade show (speakers, exhibitors, sponsors and companies).",
   "owner": {
     "name": "Prompt Prospect",
-    "email": "chris@promptprospect.ai",
+    "email": "support@promptprospect.ai",
     "url": "https://www.promptprospect.ai"
   },
   "plugins": [
@@ -12,7 +12,7 @@
       "name": "prompt-prospect",
       "source": "./plugins/prompt-prospect",
       "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, who fits your target customer, and the other events they go to.",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "category": "sales",
       "tags": [
         "conference attendee list",

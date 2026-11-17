@@ -1,11 +1,11 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "prompt-prospect",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Get the attendee list for any conference, expo or trade show: speakers, exhibitors, sponsors and companies, who fits your target customer, and the other events they go to.",
   "author": {
     "name": "Prompt Prospect",
-    "email": "chris@promptprospect.ai",
+    "email": "support@promptprospect.ai",
     "url": "https://www.promptprospect.ai"
   },
   "homepage": "https://www.promptprospect.ai",
@@ -42,9 +42,9 @@
         "privacyPolicyURL": "https://www.promptprospect.ai/privacy",
         "termsOfServiceURL": "https://www.promptprospect.ai/terms",
         "defaultPrompt": [
-          "Who is speaking at Money20/20 USA, and which speakers work at banks?",
-          "What other conferences is U.S. Bank sponsoring, exhibiting or speaking at?",
-          "Who at Money20/20 USA matches my target customer, and why?"
+          "Which fintech conferences are coming up in Las Vegas?",
+          "Who is speaking at Fintech Meetup 2027, and which speakers work at banks?",
+          "What other conferences is U.S. Bank sponsoring or exhibiting at?"
         ],
         "brandColor": "#1F6FEB",
         "composerIcon": "./assets/icon.png",
@@ -60,10 +60,10 @@
               "expected_behavior": "A list of upcoming catalog events in Las Vegas, including AWS re:Invent (November 30 - December 4, 2026), CES (January 6-9, 2027), Fintech Meetup (February 22-24, 2027) and Google Cloud Next (April 13-15, 2027), each with dates, venue and website. Read-only: nothing is saved."
             },
             {
-              "description": "See what research found for an event saved in the workspace.",
-              "prompt": "What did research find for Money20/20 USA?",
-              "tools_triggered": "list_my_events, event_overview",
-              "expected_behavior": "Research is complete for Money20/20 USA (October 18-21, 2026, Las Vegas): about 1,790 people and 830 companies found, 20 people matching the saved target customer, the research stages, and a link to the event in Prompt Prospect. Read-only."
+              "description": "See the first people the organizer lists for a public conference that is not saved in the workspace.",
+              "prompt": "Who is speaking at Fintech Meetup 2027, and which speakers work at banks?",
+              "tools_triggered": "find_events, list_event_people",
+              "expected_behavior": "The first 50 speakers the organizer lists for Fintech Meetup 2027 (February 22-24, 2027, Las Vegas), each with name, title and company and the organizer's page that lists them, with the ones at banks pointed out, and a line saying these are the first 50 of the conference page's estimated people and that saving the conference to the workspace gives the full list. No profile links, email addresses or phone numbers. Read-only: nothing is saved."
             },
             {
               "description": "Filter the people at an event by role and company.",
@@ -104,7 +104,7 @@
         "commerce_description": "This plugin does not sell products or process payments. It finds conferences and the people and companies at them, and saves notes and statuses in the user's Prompt Prospect workspace."
       },
       "publication": {
-        "release_notes": "Prompt Prospect for ChatGPT, 1.2.1. Find conferences, expos and trade shows by city or industry. See who is speaking, exhibiting, sponsoring and attending, with the evidence that puts each person there, and who matches your target customer. Trace a company or speaker across events. Save the people worth meeting, keep notes, and record meetings and outcomes."
+        "release_notes": "Prompt Prospect for ChatGPT, 1.2.2. Ask about any public conference page before it is saved to your workspace: search conferences by city or industry, see estimated attendance, sponsors and exhibitors, and the first people each organizer lists. Trace a company across conferences. New suggested prompts. Save the people worth meeting, keep notes, and record meetings and outcomes."
       }
     }
   }

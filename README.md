@@ -26,13 +26,13 @@ claude plugin install prompt-prospect@prompt-prospect-plugins
 
 Then run `/mcp` once to sign in to Prompt Prospect.
 
-**Claude (claude.ai and desktop)**: add Prompt Prospect from the directory, or Settings → Connectors → Add custom connector with the URL above.
+**Claude (claude.ai and desktop)**: Settings → Connectors → Add custom connector with the URL above.
 
 **ChatGPT**: add Prompt Prospect from the plugin directory. Or, with developer mode on, add the MCP server URL above as a connection.
 
 ## Privacy
 
-The server returns only data from your own workspace and the public event catalog: event details, people connected with an event (name, headline, company, LinkedIn profile URL and the evidence that puts them there), companies, fit verdicts, the other events a person or company is listed at, and your own notes. It never returns email addresses, phone numbers or payment details. The full policy is at https://www.promptprospect.ai/privacy and the terms at https://www.promptprospect.ai/terms. Support: chris@promptprospect.ai.
+The server returns only data from your own workspace and the public event catalog: event details, people connected with an event (name, headline, company, LinkedIn profile URL and the evidence that puts them there), companies, fit verdicts, the other events a person or company is listed at, and your own notes. It never returns email addresses, phone numbers or payment details. The full policy is at https://www.promptprospect.ai/privacy and the terms at https://www.promptprospect.ai/terms. Support: support@promptprospect.ai.
 
 ## Documentation
 
